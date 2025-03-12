@@ -9,7 +9,7 @@ start_process(){
 	echo "$!" > "$tmpfile"
 }
 stop_process(){
-	kill "$(cat "$tmpfile")"
+	#kill "$(cat "$tmpfile")"
 	sudo pkill -f "./manage_my_process"
 	rm "$tmpfile"
 }
