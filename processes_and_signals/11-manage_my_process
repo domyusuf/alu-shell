@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Manage_my_process Bash script 
+# Manage_my_process Bash script
 
 
 argv1=$1
